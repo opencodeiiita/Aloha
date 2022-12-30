@@ -1,5 +1,8 @@
 # Aloha
-- An Opencode22 Repository with tasks only for Freshies (1st year) at IIITA.
+- An Opencode22 Repository with some tasks only for Freshies at IIITA and others open for all contributors at Opencode'22..
+- Issues Labelled as **First-Year-Only** are only for First Year Students at IIIT Allahabad.
+- Issues Labelled as **Open-For-All** are open to be solved for all Contributors at OpenCode'22.
+
 - The tech stack may vary from task to task.
 - Some Resources for Basics of Git: https://www.atlassian.com/git
 

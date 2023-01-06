@@ -4,13 +4,36 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    }
+
+    .discription {
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    table, th, td {
+         border:1px solid black;
+    }
+    a {
+         margin: 0 10px;
+    }
+	.foot{
+		margin-top: 20px;
+	}
+	</style>
 	<title>Web Portfolio</title>
+	<!-- <link rel="stylesheet" href="main.css"> -->
 </head>
 <body>
 	<h2 style="text-align: center;">Portfolio</h2>
 	<fieldset>
 		<legend>Personal Details</legend>
-	<ul>
+		<img src="https://userpic.codeforces.org/2898780/title/28d2906ad313158e.jpg" alt="Image not Loaded Properly" class="profile">
+		<p class="discription">Love to learn </p>
+		<ul>
 		<li>
 			<strong>Name</strong> : Srijan jain
 		</li>
@@ -25,5 +48,44 @@
 		</li>
 	</ul>
 	</fieldset>
+	<fieldset>
+		<legend>Result</legend>
+		<table style="width:100%;">
+			<tr>
+				<th>School/Organisation</th>
+				<th>Position</th>
+				<th>Year</th>
+				<th>Percentage</th>
+			</tr>
+			<tr>
+				<td>Springdales Sr. Sec. School , Sagwara</td>
+				<td>Class 10</td>
+				<td>2019</td>
+				<td>89.6%</td>
+			</tr>
+			<tr>
+				<td>Shiv Jyoti Sr. Sec. School , Kota</td>
+				<td>Class 12</td>
+				<td>2021</td>
+				<td>97.8%</td>
+			</tr>
+		</table>
+	</fieldset>
 </body>
+<footer>
+	<div class="foot" style="display: flex;">
+		<a href="https://www.linkedin.com/in/srijan-jain-718987192/">
+		  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="40" height="40">
+		</a>
+		<a href="https://twitter.com/srijanjainn">
+		  <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="Twitter" width="40" height="40">
+		</a>
+		<a href="https://www.instagram.com/srijan4500/">
+		  <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-full-gradient-colour-background.png" alt="Instagram" width="40" height="40">
+		</a>
+		<a href="https://github.com/srijan4500">
+		  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="40" height="40">
+		</a>
+	  </div>	  
+</footer>
 </html>

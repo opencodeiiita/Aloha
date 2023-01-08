@@ -10,17 +10,19 @@
         background-repeat: no-repeat;
         backface-visibility: visible;
         color: bisque;
-        background-color: black;
+        background-color: rgb(42, 43, 28);
         cursor: grab;
        
 
       }
       img{
         display: flex;
-        Width :90px;
-        height:55px;
-        margin-left: 45%; 
+
+        Width :100px;
+        height:100px;
+        margin-left: 47%; 
         margin-bottom: 10px;
+        border-radius: 100%;
 
       }
       img:hover{
@@ -55,27 +57,112 @@
         margin-bottom: 1em;
         border: 2px solid rgb(209, 121, 121);
       }
-      .section h2 {
+      .section th {
         margin-bottom: 0.5em;
+        border: 2px goldenrod solid;
+      }
+      .section td {
+        margin-bottom: 0.5em;
+        border: 2px goldenrod solid;
+      }
+      .section th:hover {
+        margin-bottom: 0.5em;
+        color: bisque;
       }
       .section p{
         margin: 15px;
       }
+      #b{
+        text-align: center;
+      }
+      #a:hover{
+        color:yellow;
+      }
+      .e{
+        width:100%;
+      }
+      .nav{
+        display:flex;
+        width: 10px;
+        height :10px;
+        margin-left: 79%;
+      }
+      .logo{
+        height:40px;
+        width:40px;
+        margin:5px;
+      }
+      .navbar{
+        background-color: rgb(177, 157, 47);
+        border-radius: 10px;
+        margin: 10px;
+        
+      }
+      .navbar ul{
+        overflow:auto;
+        list-style: none;
+        display:flex;
+      }
+      .navbar li{
+        margin:5px;
+        color: black;
+
+      }
+      .navbar li:hover{
+        color: rgb(230, 234, 234);
+      }
+      .b{
+        display:flex;
+        border: 2px solid rgb(209, 121, 121);
+        height:200px;
+      }
+      .l{
+        margin:auto;
+        height:100px;
+        width:100px;
+
+      }
+      /* .l:hover{
+        width:40%;
+        height:40%;
+      } */
+
     </style>
   </head>
   <body>
-    <h1>[Shivam Kumar ]</h1>
+    <!-- <h1 id ="a"> [PORTFOLIO]</h1> -->
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li>Contact info</li>
+          <li>Summary</li>
+          <li>Skills</li>
+          <li>Education</li>
+          <li>Gallery</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="p">
+      <ul class="nav">
+        <a href="https://www.twitter.com"><img src="https://webstockreview.net/images/twitter-bird-png-transparent-10.png" alt="Twitter" width="40" height="40"class="logo">"</a><br>
+        <a href="https://www.linkedin.com"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="40" height="40" alt="Linkedin" class="logo"></a><br>
+        <a href="https://github.com"><img src="https://blog.pauby.com/images/talks/git-fundamentals/github-blue-logo.png" alt="github" width="40" height="40" alt="Github"  class="logo"></a><br>
+        <a href="https://www.instagram.com"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-full-gradient-colour-background.png" width="40" height="40" alt="Instagram" class="logo"></a><br>
+        <!-- <img src="https://www.bing.com/images/search?view=detailV2&ccid=kjCUP06W&id=68BC6BDF2A44F6B12362900D5C5C041FB0B42248&thid=OIP.kjCUP06WDUMR88i5wo2SqwHaHa&mediaurl=https%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fGitHub_logo.png&exph=5000&expw=5000&q=github+logo+jpg&simid=608015117224842292&FORM=IRPRST&ck=74A835977380CEA0D16A7C951A2A7BD6&selectedIndex=1&ajaxhist=0&ajaxserp=0" alt=""> -->
+    </div>
     
     <img src="IMG_20211211_075908.jpg"></img>
+    <h3 id="b"><bold>!!Born to rule!!</bold></h3>
     <div class="section">
       <h2>Contact Information</h2>
       <p>
+        NAME: [SHIVAM ACHARYA]<BR>
         Roll number: IIT2022158<br>
         Date Of Birth: 28/12/2005<br>
         Address: Purnia, Bihar<br>
         Phone: [7992216808]<br>
         Email: [sigmamen066@gmail.com]<br>
-        Website: [fitness.html]
+        Website: [https://www.linkedin.com/in/shivam-acharya-9441b524b/]
       </p>
     </div>
    
@@ -100,9 +187,44 @@
     </div>
     <div class="section">
       <h2>Education</h2>
-      <h3>Bachelor of Science in Computer Science, [IIIT Allahabad]</h3>
-      <h3>Intermediate,[<bold>Bright career school</bold>]</h3>
-      <h3>matriculate,<bold>[Bijendra Public School]</bold></h3>
+      <!-- <h3>Bachelor of technology in Information technology, [IIIT Allahabad]</h3>
+      <h3></bold></h3>
+      <h3>matriculate,<bold>[Bijendra Public School]</bold></h3> -->
+      <table class="e">
+      <tr>
+        <th><bold>Qualifications</bold></th>
+        <th>Bachelor of technology </th>
+        <th>Intermediate</th> 
+        <th>Matriculate</th>
+      </tr>
+      <tr>
+        <td><bold>college name</bold></td>
+        <td>[IIIT Allahabad]</td>
+        <td>[Bright Career School]</td>
+        <td>[Bijendra Public School]</td>
+      </tr>
+      <tr>
+        <td><bold>Passing year</bold></td>
+        <td>2026</td>
+        <td>2022</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td><bold>Marks obtained</bold></td>
+        <td>7.8cg</td>
+        <td> 93%</td>
+        <td> 96%</td>
+      </tr>
+    </table>
+    </div>
+    <div class="b">
+      <h2>Gallery</h2>
+      
+      <img class="l" src="IMG20210419195031_00.jpg">
+      <img class="l" src="IMG20201228080746_00.jpg">
+      <img class="l" src="IMG20221104153036.jpg">
+      
+
     </div>
   </body>
 </html>

@@ -7,7 +7,77 @@
     <title>IEC2022082</title>
     <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
     <style>
-     .pf{
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        section{
+            width:100%;
+            height:100vh;
+            background-image:url(https://jessicaroots.com/wp-content/uploads/et_temp/portfolio-background-header-53082_1080x675.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            text-align:center;
+            position:relative;
+        }
+        div,section,span,ul,li,a{
+            box-sizing:bordr-box;
+        }
+        #home{
+            padding:5px;
+        }
+        header{
+            width:100%;
+            position:fixed;
+            z-index:999;
+        }
+        nav{
+            background-color: whitesmoke;
+            height:35px;
+            padding:5px;
+            width:100%;
+        }
+        nav h1{
+            padding-top:0px;
+            float:left;
+            font-family: 'Rancho',sans-serif;
+            text-shadow:0px 0px 5px rgb(239, 89, 177), 0px 0px 20px violet;
+            color:black;
+            font-size:150%;
+        }
+
+        nav ul{
+            background-color: whitesmoke;
+            border-radius:4px;
+            font-size:100%;
+            padding:10px;
+            padding-left:15px;
+            float:right;
+            list-style: none;
+        }
+        nav ul li{
+            display:inline;
+        }
+        nav ul li a{
+            padding-top:0px;
+            color:black;
+            padding-left:15px;
+            text-decoration:none;
+            
+        }
+        nav ul li a:hover{
+            color:blue;
+            transition:color 0.2s;
+        }
+        .info{
+        text-align: center;
+        size:15px;
+        }
+        .pf{
         padding-top:50px;
         margin-bottom:70px;
         text-decoration: wavy;
@@ -16,51 +86,29 @@
         color:#7F167F;
         font-family: 'Rancho',sans-serif;
         text-shadow:0px 0px 5px black, 0px 0px 20px #7F167F;
-     }
-     body{
-        background-image:url(https://jessicaroots.com/wp-content/uploads/et_temp/portfolio-background-header-53082_1080x675.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        text-align:center;
-     }  
-     .info{
-        text-align: center;
-        size:15px;
-     }
-     ul{
-      margin-top: 10px;
-      margin-bottom: 10px;
-      list-style:none;
-      font-size:200%;
-      padding-top:85px;
-      padding:100px;
-      line-height:1.5em;
-
-     }
-     strong{
-      color:white;
-     }
-     .p{
+        }
+        .p{
         border-radius:50%;
         height:200px;
         width:200px;
-     }
-     .ftr{   
-        color:black;  
-        text-align: center;
-        padding:3px;
-        padding-top:0px;
-        margin:0px 0px 0px 0px;
-        background-color:whitesmoke;
-    
-     }
-     h5{
-        text-shadow:0px 0px 5px #7F167F;
+        }
+        strong{
+        color:white;
+        }
+        .about{
+            text-align:center;
+        }
+        .about ul{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        list-style:none;
         font-size:200%;
-        color:black;
-     }
-     th,td {
+        padding-top:85px;
+        padding:100px;
+        line-height:1.5em;
+        margin-top:0%;
+        }
+        th,td {
             border: 1px solid black;
             text-align: center;
             padding : 5px;
@@ -70,8 +118,9 @@
             margin-left: auto;
             margin-right: auto;
             width: 40%;
-            padding-bottom:10px;
+            padding-bottom:15px;
             margin-bottom:10px;
+            padding-top:100px;
         }
         td {
             color :black;
@@ -81,9 +130,34 @@
             background-color:black;
             color:white;
         }
+        .education1{
+            text-align:center;
+        }
+        img{
+            display:inline;
+            padding:7px;
+            text-align:center;
+            height:200px;
+            width:200px;
+            border-radius:50px;
+        }
+        #gallery h4{
+            color:black;
+            text-shadow:0px 0px 10px #7F167F;
+            text-align:center;
+            font-size:300%;
+            font-family:'Rancho',sans-serif;
+        }
+        #contact h5{
+            color:black;
+            text-shadow:0px 0px 10px #7F167F;
+            text-align:center;
+            font-size:300%;
+            font-family:'Rancho',sans-serif;
+        }
         ion-icon{
-            height:30px;
-            width:30px;
+            height:100px;
+            width:100px;
             padding-right:30px;
             color: black;
             transition: color 0.2s;
@@ -95,53 +169,84 @@
     </style>
 </head>
 <body>
-    <div class="info">
-      <h1 class="pf">PORTFOLIO</h1>
-      <img class="p" src="https://res.cloudinary.com/teepublic/image/private/s--4fpOTWlv--/c_crop,x_10,y_10/c_fit,h_830/c_crop,g_north_west,h_1038,w_1038,x_-104,y_-104/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-215,y_-215/b_rgb:262c3a/c_limit,f_jpg,h_630,q_90,w_630/v1608286511/production/designs/17546662_0.jpg">
-      <div class="ptwo"><p><B>NAMASTE</B></p>
-      <P>Iam a b-tech student of IIITA</P>
-      <p>Currently,in 1<sup>st</sup> Year</p>
-   </div>
-      <ul>
-      <li><strong>Name</strong> : Saiushasree Kasu</li>
-      <li><strong>Roll Number</strong> : IEC2022082</li>
-      <li><strong>Date of Birth</strong> : 16 february 2005</li>
-      <li><strong>Address</strong> : Andhra Pradesh</li>
-      </ul>
-      <table>
-         <thead>
-             <tr><th> School </th><th> Class </th><th> Year </th><th>Percentage</th></tr>
-         </thead>
-         <tbody>
-             <tr><td>Narayana EM School</td><td> 10 </td><td> 2020 </td><td> 100%</td></tr>
-             <tr><td>Narayana Jumior College</td><td> 12 </td><td> 2022 </td><td>98.9%</td></tr>
-         </tbody>
-     </table>
-    </div>
-    <footer>
-    <div class="ftr">
-        <h5>contact-me:</h5>
-        <br>
-        <div class="footers">
-        <a href="https://github.com/saiushasree1/Aloha.git"><ion-icon name="logo-github"></ion-icon>
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=100087757602941&mibextid=ZbWKwL"><ion-icon name="logo-facebook"></ion-icon>
-        </a>
-        <a href="https://twitter.com/Saiushasree_K?t=AEisCsamwZRcXI-TZLe2IQ&s=09"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="https://instagram.com/yuvatejasvi__reddy?igshid=YmMyMTA2M2Y="><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="mailto:iec2022082@iiita.ac.in"><ion-icon name="mail-outline"></ion-icon></a>
+    <section id="home">
+        <header>
+        <nav>
+            <h1>Usha Reddy</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about1">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div class="info">
+            <h1 class="pf">PORTFOLIO</h1>
+            <img class="p" src="https://res.cloudinary.com/teepublic/image/private/s--4fpOTWlv--/c_crop,x_10,y_10/c_fit,h_830/c_crop,g_north_west,h_1038,w_1038,x_-104,y_-104/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-215,y_-215/b_rgb:262c3a/c_limit,f_jpg,h_630,q_90,w_630/v1608286511/production/designs/17546662_0.jpg">
+            <div class="ptwo"><p><B>NAMASTE</B></p>
+            <P>Iam a b-tech student of IIITA</P>
+            <p>Currently,in 1<sup>st</sup> Year</p>
+         </div>      
+    </section>
+    <section id="about1">
+        <div class="about">
+            <ul>
+            <br><br><br>
+            <li><strong>Name</strong> : Saiushasree Kasu</li>
+            <li><strong>Roll Number</strong> : IEC2022082</li>
+            <li><strong>Date of Birth</strong> : 16 february 2005</li>
+            <li><strong>Address</strong> : Andhra Pradesh</li>
+            <br>
+            </ul>
+          </div>
+    </section>
+    <section id="education">
+        <div class="education1">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <table>
+            <thead>
+                <tr><th> School </th><th> Class </th><th> Year </th><th>Percentage</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Narayana EM School</td><td> 10 </td><td> 2020 </td><td> 100%</td></tr>
+                <tr><td>Narayana Jumior College</td><td> 12 </td><td> 2022 </td><td>98.9%</td></tr>
+            </tbody>
+        </table>
         </div>
-    </div>
-    </footer>
+    </section>
+    <section id="gallery">
+        <br><br><br><br><br>
+        <h4>Gallery</h4>
+        <br><br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwuah51nyo6gtkZbp6xbgQ73ef5rZvTY4wg&usqp=CAU" alt="doggy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg" alt="nature">
+        <img src="https://images.unsplash.com/photo-1446707052533-0e1d48e08aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJlc3N8ZW58MHx8MHx8&w=1000&q=80" alt="trees">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0pAk3tw7_QtzXNxMhsnQ7vSUI0Tj_QxRM-x69UwOwuxA-NbSgwiy_-GYKR_EF4wa-AV0&usqp=CAU" alt="tree">
+    </section>
+    <section id="contact">
+        
+            <footer>
+                <div class="contact1">
+                    <br><br><br><br><br><br><br>  
+                    <h5>contact-me:</h5>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="footers">
+                    <a href="https://github.com/saiushasree1/Aloha.git"><ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100087757602941&mibextid=ZbWKwL"><ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/Saiushasree_K?t=AEisCsamwZRcXI-TZLe2IQ&s=09"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://instagram.com/yuvatejasvi__reddy?igshid=YmMyMTA2M2Y="><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="mailto:iec2022082@iiita.ac.in"><ion-icon name="mail-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </footer>
+    </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
-
-
-
-   
-
-
-
-   

@@ -4,23 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIT2022005</title>
+    <title>Homepage</title>
     <style>
-        ul {
+        .listy ul{
+            font-size:200%;
+            list-style: none;
+        }
+        .listy li{
+            display: inline-block;
+            margin: 0 70px;
+        }
+        .listy a {
+            background: linear-gradient(#cf00eb, #2ba3ff);
+            border-right: 1px solid rgba(0, 0, 0, .3);
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+        }
+        .listy a:hover {
+            background: #005397;
+            box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+        }
+        .list2 {
             font-size:200%;
             text-align:center;
             list-style:none;
-            color: violet;
+            color: white;
             padding:175px;
             padding:50px;
             line-height:1.4em;
+            text-align: center;
         }
         body {
             background-image: url('https://wallpapercave.com/dwp2x/wp1892099.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            text-align: center;
         }
         th,td {
             border: 1px solid black;
@@ -32,6 +51,7 @@
             margin-left: auto;
             margin-right: auto;
             width: 40%;
+            text-align: center;
         }
         td {
             color :violet;
@@ -42,37 +62,256 @@
             color:aliceblue;
         }
         .profile {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
             border-radius: 50%;
-            width : 225px;
-            height : 225px;
         }
         p {
-            color:violet;
+            color:white;
+        }
+        .logo {
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <marquee><p style="font-size:250%"><b>Welcome to my website!</b></p></marquee>
-<br><br> 
-<img class = "profile" src="https://i.pinimg.com/736x/af/73/db/af73db4e91971e7a0a71484fd3e15fbd.jpg">
-<ul>
-    <li>Name: Jai Khanna</li>
-    <li>Roll Number: IIT2022005</li>
-    <li>Date of Birth: 31 July 2004</li>
-    <li>Address: Jalandhar, Punjab</li>
-</ul>
-<table>
-    <thead>
-        <tr><th> School </th><th> Class </th><th> Year </th><th> Percentage </th></tr>
-    </thead>
-    <tbody>
-        <tr><td>Indian Public School (IPS)</td><td> 10th </td><td> 2020 </td><td> 90% </td></tr>
-        <tr><td>Indian Public School (IPS)</td><td> 12th </td><td> 2022 </td><td> 93% </td></tr>
-    </tbody>
-</table><br><br>
-<a href="https://www.linkedin.com/in/jai-khanna-71a530202" class="logo"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png?w=360" alt="Linkedin" height="45"></a>
-<a href="https://github.com/JackofAllCodez" class="logo"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" height="45"></a>
-<a href="https://www.instagram.com/jai_khanna04" class="logo"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram" height="45"></a>
-<a href="https://www.facebook.com/jai.khanna.5203" class="logo"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="Facebook" height="45"></a>
+    <nav class="listy">
+        <ul >
+            <li><a href="IITp1.html">About</a></li>
+            <li><a href="IITp2.html">Education</a></li>
+            <li><a href="IITp3.html">Gallery</a></li>
+            <li><a href="IITp4.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br><br> 
+    <img class = "profile" src="https://i.pinimg.com/736x/af/73/db/af73db4e91971e7a0a71484fd3e15fbd.jpg">
+    <ul class="list2">
+        <li>Name: Jai Khanna</li>
+        <li>Roll Number: IIT2022005</li>
+        <li>Date of Birth: 31 July 2004</li>
+        <li>Address: Jalandhar, Punjab</li>
+    </ul>
+    <table>
+        <thead>
+            <tr><th> School </th><th> Class </th><th> Year </th><th> Percentage </th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Indian Public School (IPS)</td><td> 10th </td><td> 2020 </td><td> 90% </td></tr>
+            <tr><td>Indian Public School (IPS)</td><td> 12th </td><td> 2022 </td><td> 93% </td></tr>
+        </tbody>
+    </table>
+    <br><br>
+    <div class="logo">
+        <a href="https://www.linkedin.com/in/jai-khanna-71a530202"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png?w=360" alt="Linkedin" height="45"></a>
+        <a href="https://github.com/JackofAllCodez"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" height="45"></a>
+        <a href="https://www.instagram.com/jai_khanna04"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram" height="45"></a>
+        <a href="https://www.facebook.com/jai.khanna.5203"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="Facebook" height="45"></a>
+    </div>
+</body>
+</html>
+
+
+
+IITp1.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        ul {
+            font-size:200%;
+            text-align:center;
+            list-style:none;
+            color: white;
+            padding:175px;
+            padding:50px;
+            line-height:1.4em;
+            text-align: center;
+        }
+        body {
+            background-image: url('https://wallpapercave.com/dwp2x/wp1892099.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .cl {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            border-radius: 50%;
+        }
+        a {
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a href="IIT2022005__.html">Homepage</a>
+    <br>
+    <img class="cl" src="https://i.pinimg.com/736x/af/73/db/af73db4e91971e7a0a71484fd3e15fbd.jpg">
+    <ul>
+        <li>Name: Jai Khanna</li>
+        <li>Roll Number: IIT2022005</li>
+        <li>Date of Birth: 31 July 2004</li>
+        <li>Address: Jalandhar, Punjab</li>
+    </ul>
+    
+</body>
+</html>
+
+
+
+IITp2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/dwp2x/wp1892099.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        a {
+            font-size: 30px;
+            color: white;
+        }
+        th,td {
+            border: 1px solid black;
+            text-align: center;
+            padding : 6px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            text-align: center;
+        }
+        td {
+            color :violet;
+            background-color: aliceblue;
+        }
+        thead {
+            background-color: violet;
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <a href="IIT2022005__.html">Homepage</a>
+    <br><br><br><br>
+    <table>
+        <thead>
+            <tr><th> School </th><th> Class </th><th> Year </th><th> Percentage </th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Indian Public School (IPS)</td><td> 10th </td><td> 2020 </td><td> 90% </td></tr>
+            <tr><td>Indian Public School (IPS)</td><td> 12th </td><td> 2022 </td><td> 93% </td></tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
+
+
+
+IITp3.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/dwp2x/wp1892099.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .sp {
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
+        a {
+            font-size: 30px;
+            color: white;
+        }
+        img {
+            width: 24%;
+        }
+    </style>
+</head>
+<body>
+    <a href="IIT2022005__.html">Homepage</a>
+    <br>
+    <h2  class="sp"><u>Gallery</u></h2>
+    <br><br>
+    <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pillars-of-creation-visible-and-midi-1666987280.png">
+    <img src="https://media.npr.org/assets/img/2022/07/12/southern-ring-nebula-2-_custom-60c7d16d9c36f085646be2dad4585892c783952d-s1100-c50.jpg">
+    <img src="http://www.nasa.gov/sites/default/files/thumbnails/image/main_image_deep_field_smacs0723-5mb.jpg">
+    
+    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/07/01003339/Tarantula-Nebula.jpg">
+    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/07/15131607/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-5mb.jpg">
+    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/07/01004027/Neptune-rings.jpg">
+    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/07/01002707/Cartwheel-Galaxy.jpg">
+</body>
+</html>
+
+
+IITp4.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/dwp2x/wp1892099.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        a {
+            font-size: 30px;
+            color: white;
+        }
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <a href="IIT2022005__.html">Homepage</a>
+    <br><br><br>
+    <a href="https://www.linkedin.com/in/jai-khanna-71a530202"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png?w=360" alt="Linkedin" class="logo"></a><br>
+    <a href="https://github.com/JackofAllCodez"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"  class="logo"></a><br>
+    <a href="https://www.instagram.com/jai_khanna04"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram" class="logo"></a><br>
+    <a href="https://www.facebook.com/jai.khanna.5203"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="Facebook" class="logo"></a>
 </body>
 </html>

@@ -1,10 +1,9 @@
 # Aloha
-- An Opencode22 Repository with some tasks only for Freshies at IIITA and others open for all contributors at Opencode'22..
-- Issues Labelled as **First-Year-Only** are only for First Year Students at IIIT Allahabad.
-- Issues Labelled as **Open-For-All** are open to be solved for all Contributors at OpenCode'22.
+- There's a folder named submissions in this branch. Create a folder with your GitHub handle there and add the apk file and a README.md file.
+- Readme should list the features and working of the app and the link to github repo of the app.
+- GitHub repo for the App should have at least 3 commits otherwise PR will not be merged.
+- The first commit of the Application should have been made after the issue was created. If any repo contains any commits before that time, the submission will not be considered.
 
-- The tech stack may vary from task to task.
-- Some Resources for Basics of Git: https://www.atlassian.com/git
 
 Happy contributing :)
 <br>

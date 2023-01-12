@@ -1,0 +1,2 @@
+site link       : https://saiushasree1.github.io/BucketList/
+repository link : https://github.com/saiushasree1/BucketList.git
